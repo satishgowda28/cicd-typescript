@@ -12,6 +12,6 @@ describe("AUTH: Get API Key", () => {
   });
   test("authorization correct key", () => {
     const key = getAPIKey({ authorization: "ApiKey key123" });
-    expect(key).toBe("key123");
+    expect(key).toBe("TEST");
   });
 });
